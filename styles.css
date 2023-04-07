@@ -13,11 +13,15 @@ body {
   color: #E1E3E6 - light grey
    */
 
+section {
+  width: 1000px;
+  margin: 0 auto;
+}
+
 #main {
   display: flex;
   flex-direction: column;
-  width: 1000px;
-  margin: 0 auto;
+
   color: #e1e3e6;
 }
 
@@ -25,7 +29,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 4em;
-  padding: 3rem 0;
+  padding: 6rem 0;
   /* border: 5px solid pink; */
   align-items: flex-start;
 }
@@ -66,12 +70,12 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
+  /* max-width: 450px; */
   margin: 0 auto;
 }
 
 #image {
-  max-width: 100%;
+  max-width: 420px;
   height: auto;
   /* max-width: 300px; */
   margin-bottom: 1rem;
@@ -85,7 +89,6 @@ img {
 #img-caption > em > a {
   text-decoration: none;
   color: #25eb82;
-  /* font-size: 1.2em; */
 }
 
 #img-caption > em > a:hover {
@@ -160,37 +163,49 @@ img {
 .rhs p {
   padding-bottom: 3rem;
   line-height: 1.5;
-  /* width: 80%; */
 }
 
 #famous-quote {
   padding: 8rem 0;
-  /* margin: 0 auto; */
+  /* background-color: #2d2f3b; */
+  background-color: #1f222b;
+  width: 100%;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 #quote {
-  padding: 2rem;
+  padding: 2.5rem;
   background-color: #2d2f3b;
+  /* background-color: #1f222b; */
   border-left: 8px solid #25eb82;
-  max-width: 800px;
-  margin: 0 auto;
   font-size: 1.8em;
 }
 
-#qoute-name {
-  max-width: 600px;
+#quote-name {
+  width: 600px;
   margin-top: 2rem;
-  margin-left: 9rem;
+  margin-left: 2.5rem;
   font-size: 1.2rem;
   font-weight: 300;
+}
+
+footer {
+  /* position: absolute; */
+  width: 100vw;
+  background-color: #1f222b;
 }
 
 #tribute {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem 0;
-  background: #2d2f3b;
+  padding: 1.5rem 1rem;
   /* border: 2px solid red; */
 }
 
